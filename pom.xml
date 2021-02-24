@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>Amazon-Redshift</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <redshift.version>1.2.45.1069</redshift.version>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>redshift</id>
+            <url>http://redshift-maven-repository.s3-website-us-east-1.amazonaws.com/release</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.amazon.redshift</groupId>
+            <artifactId>redshift-jdbc42</artifactId>
+            <version>1.2.43.1067</version>
+        </dependency>
+        <dependency>
+            <groupId>com.halodoc</groupId>
+            <artifactId>halodoc-core</artifactId>
+            <version>0.0.40</version>
+        </dependency>
+    </dependencies>
+
+
+</project>
